@@ -1,3 +1,3 @@
 # LeetCode
 
-My leetcode solutions and implementations of various algorithmic problems
+My LeetCode solutions and implementations of various algorithmic problems
