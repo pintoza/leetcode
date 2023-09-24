@@ -29,17 +29,17 @@ class Solution:
         if len(s) % 2 != 0:
             return False
 
-        # initialize stack
+        # initialize 03_stack
         stack = []
 
         for i, char in enumerate(s):
             mapped_value = mapping.get(char, None)
 
-            # If opening element, push it and its index onto the stack
+            # If opening element, push it and its index onto the 03_stack
             if mapped_value % 2 == 1:
                 stack.append((mapped_value, i))
 
-            # If closing element, pop the last opening element from the stack and check conditions
+            # If closing element, pop the last opening element from the 03_stack and check conditions
             else:
                 if not stack:
                     return False

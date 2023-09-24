@@ -1,7 +1,7 @@
 """
-Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+Given the roots of two binary 05_trees p and q, write a function to check if they are the same or not.
 
-Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+Two binary 05_trees are considered the same if they are structurally identical, and the nodes have the same value.
 """
 
 
